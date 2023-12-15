@@ -1,19 +1,19 @@
+<!-- Contenido del componente -->
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Hola bom dia</h1>
+  <ModelForm />
+
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<!-- Contenido de la logica del componente -->
+<script setup>
+import ModelForm from './components/ModelForm.vue';
+  // export default {
+  //   name: 'App',
+  // }
 </script>
-
+<!-- Etiquetas de estilos Generales para toda la aplicación -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
