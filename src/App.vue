@@ -1,17 +1,18 @@
 <!-- Contenido del componente -->
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Hola bom dia</h1>
-  <ModelForm />
+  <PostListVue />
 
 </template>
 
 <!-- Contenido de la logica del componente -->
 <script setup>
-import ModelForm from './components/ModelForm.vue';
-  // export default {
-  //   name: 'App',
-  // }
+import PostListVue from './components/PostList.vue';
+
+
+
+
+
 </script>
 <!-- Etiquetas de estilos Generales para toda la aplicación -->
 <style>
