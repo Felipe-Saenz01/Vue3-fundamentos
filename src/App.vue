@@ -1,13 +1,16 @@
 <!-- Contenido del componente -->
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <PostListVue />
+  <ComputedCompositionapi />
 
 </template>
 
 <!-- Contenido de la logica del componente -->
 <script setup>
-import PostListVue from './components/PostList.vue';
+
+import ComputedCompositionapi from './components/ComputedCompositionapi.vue';
+// import ComputedOptionapi from './components/ComputedOptionapi.vue';
+
 
 
 
