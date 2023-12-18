@@ -1,23 +1,18 @@
 <template>
     <div>
-        <h3>{{ reverse }}</h3>
+        <h3 v-bg-color:green>{{ message }}</h3>
+        <h3 v-custom-color.big.blue>{{ reverse }}</h3>
         <input type="text" v-model="message">
     </div>
 </template>
 
-<script>
-import {defineComponent, ref, computed} from 'vue';
+<script setup>
+import { ref, computed} from 'vue';
 
-export default defineComponent({
-    name: 'ComputedOptionapi',
-    setup(){
-        let message = ref('');
-        const reverse = computed(() => message.value.split('').reverse().join(''))
+    let message = ref('saludo');
+    const reverse = computed(() => message.value.split('').reverse().join(''))    
 
-        return{ message, reverse }
-    }
 
-})
 
 </script>
 
